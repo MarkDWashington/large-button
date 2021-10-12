@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="TheQuestion">Clear?</div>
-      <button className="TheButton">Clear!</button>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="TheQuestion">Clear?</div>
+        <button className="TheButton">Clear!</button>
+      </div>
+    );
+  }
 }
 
 export default App;
