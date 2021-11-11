@@ -8,18 +8,22 @@
 }
 
 .App > * {
-  padding: 64px;
+  padding: 16px;
 }
 
 .TheQuestion {
-  font-size: 6em;
+  font-size: 5em;
+}
+
+.TheCount {
+  font-size: 4em;
 }
 
 .TheButton {
   /* background-color: indigo; */
 
-  min-width: 6em;
-  min-height: 5em;
-  font-size: 6em;
+  width: 5em;
+  height: 3em;
+  font-size: 5em;
   /* border-radius: 32px; */
 }
